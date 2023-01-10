@@ -1,10 +1,10 @@
 import React from "react";
 import './MainScreen.css'
 
-export const MainScreen = ({total}) => {
+export const MainScreen = ({total, input}) => {
     return (
         <div className="screen-container">
-            <p>{total}</p>
+            <p>{input}</p>
         </div>
     )
 }
