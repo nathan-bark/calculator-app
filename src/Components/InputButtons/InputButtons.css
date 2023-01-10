@@ -1,14 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 .input-btn-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
-    padding: 4px;
+
+
 }
 
 .input-btn {
+    height: 50px;
     padding: 8px;
     font-weight: 700;
     font-size: 20px;
+    background-color: rgb(232, 171, 17);
+}
+
+.input-btn:hover {
+    background-color: rgba(232, 171, 17, 0.617);
+    transform: scale(1.02);
+}
+
+.input-btn:active {
+    transform: scale(0.99);
 }
 
 .btn-0 {

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.func-btn-container {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+
+}
+
+.func-btn {
+    height: 50px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgba(2, 2, 2, 0.297);
+}
+
+.func-btn:hover {
+    background-color: rgba(2, 2, 2, 0.190);
+    transform: scale(1.02);
+}
+
+.func-btn:active {
+    transform: scale(0.99);
+}
+

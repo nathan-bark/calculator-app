@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.screen-container {
+    background-color: rgba(16, 155, 60, 0.313);
+    display: block;
+    height: 5rem;
+    padding-right: 10px;
+    border: 2px solid black;
+    font-size: 29px;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+}
+
